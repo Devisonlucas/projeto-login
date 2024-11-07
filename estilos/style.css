@@ -14,7 +14,7 @@ box-sizing: border-box;
 }
 
 body, html {
-    background-color: #5f2c82; 
+    background-color: #110818; 
     height: 100vh; 
     width: 100vw;  
     }
@@ -45,7 +45,7 @@ section#login {
 
 section#login > div#imagem {
   display: block;
-    background: #5f2c82 url('../imagens/pexels-diana-jefimova-1743519-3375270.jpg') no-repeat;
+    background: #3b1b50 url('../imagens/pexels-diana-jefimova-1743519-3375270.jpg') no-repeat;
     background-size: cover;
     background-position: center top ;
     height: 200px;  
@@ -88,10 +88,10 @@ div.campo > span {
   width: 40px;
   padding: 5px;
 
-}
+} 
 
 div.campo > input {
-  background-color: #5fd3cf;
+  background-color: #255250;
   font-size: 1em;
   width: calc(100% - 45px);
   height: 100%;
@@ -100,12 +100,14 @@ div.campo > input {
   padding: 4px;
   transform: translateY(-13px);
   
+  
  
 }
 
 div.campo > input:hover{
  
   background-color: white;
+  
 
 }
 
@@ -119,11 +121,13 @@ form > input[type=submit] {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    
 
 }
 
 form > input[type=submit]:hover {
- background-color:#367976 ;
+ background-color:#b3eeeb ;
+ color: black;
  
 }
 
@@ -135,16 +139,17 @@ form > a.botao {
   height: 40px;
   margin-top: 5px;
   padding-top: 7px;
-  background-color: #71eee8;
-  color: #0c1d1c;
-  border: 1px solid #367976 ;
+  background-color: #418884;
+  color: #d8fffc;
+  border: 1px solid #24504e ;
   border-radius: 5px;
   text-decoration: none;
 
 }
 
 form > a.botao:hover {
-    background-color: #c6f0ee;
+    background-color: #c8eff5;
+    color: black;
 }
 
 form > a.botao > span {

@@ -2,7 +2,7 @@
 
 @media screen and (min-width: 768px) and (max-width: 992px) { /* CONFIGURAÇÃO PARA TABLET */
   body {
-  background-image: linear-gradient(to top, #49a09d, #5f2c82);
+  background-image: linear-gradient(to top, #214746, #170a1f);
 
   }
   
@@ -29,7 +29,7 @@ section#login > div#formulario {
 
 @media screen and (min-width: 992px) { /* CONFIGURAÇÕES PARA TELAS GRANDES */
     body {
-        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+        background-image: linear-gradient(to top, #0c1a19, #00000085);
       
         }
   section#login {
